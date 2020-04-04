@@ -246,7 +246,7 @@
 
               <div class="form-group">
                 <label for="">14. Kode Pos</label>
-                <input type="text" name="" id="" class="form-control" aria-describedby="helpId">
+                <input type="number" name="" id="" class="form-control" aria-describedby="helpId">
               </div>
 
               <div class="form-group">
@@ -288,7 +288,7 @@
 
               <div class="form-group">
                 <label for="">19. Punya PKS/PKH?</label>
-                <select name="" id="" class="form-control">
+                <select name="" id="" class="form-control" required>
                   <option value=""></option>
                   <option value="">Ya</option>
                   <option value="">Tidak</option>
@@ -297,7 +297,7 @@
 
               <div class="form-group">
                 <label for="">20. Punya KIP?</label>
-                <select name="" id="" class="form-control">
+                <select name="" id="" class="form-control" required>
                   <option value=""></option>
                   <option value="">Ya</option>
                   <option value="">Tidak</option>
@@ -314,21 +314,21 @@
             <!-- ayah -->
             <div class="form-group">
               <label for="">21. Nama Ayah Kandung</label>
-              <input type="text" name="" id="" class="form-control" aria-describedby="helpId">
+              <input type="text" name="" id="" class="form-control" aria-describedby="helpId" required>
               <small id="helpId" class="text-muted">Nama ayah kandung peserta didik sesuai dokumen
                 resmi yang berlaku</small>
             </div>
 
             <div class="form-group">
               <label for="">22. NIK Ayah</label>
-              <input type="number" name="" id="" class="form-control" aria-describedby="helpId">
+              <input type="number" name="" id="" class="form-control" aria-describedby="helpId" required>
               <small id="helpId" class="text-muted">Nomor Induk Kependudukan yang tercantum pada Kartu
                 Keluarga atau KTP ayah kandung</small>
             </div>
 
             <div class="form-group">
               <label for="">23. Tahun Lahir Ayah</label>
-              <input type="number" name="" id="" class="form-control" aria-describedby="helpId">
+              <input type="number" name="" id="" class="form-control" aria-describedby="helpId" required>
               <small id="helpId" class="text-muted">Tahun Lahir Ayah Peserta Didik</small>
             </div>
 
@@ -352,7 +352,7 @@
 
             <div class="form-group">
               <label for="">25. Pekerjaan Ayah</label>
-              <select name="" id="" class="form-control">
+              <select name="" id="" class="form-control" required>
                 <option value="">Pilih</option>
                 <option value="">Tidak Bekerja</option>
                 <option value="">Nelayan</option>
@@ -374,7 +374,7 @@
 
             <div class="form-group">
               <label>26. Penghasilan Perbulan Ayah</label>
-              <select name="" id="" class="form-control">
+              <select name="" id="" class="form-control" required>
                 <option value=""></option>
                 <option value="">Kurang dari Rp 1.000.000 </option>
                 <option value="">Rp 1.000.000 - Rp 2.000.000 </option>
@@ -396,21 +396,21 @@
             <!-- ibu -->
             <div class="form-group">
               <label for="">27. Nama Kandung Ibu</label>
-              <input type="text" name="" id="" class="form-control" aria-describedby="helpId">
+              <input type="text" name="" id="" class="form-control" aria-describedby="helpId" required>
               <small id="helpId" class="text-muted">Nama ibu kandung peserta didik sesuai dokumen
                 resmi yang berlaku</small>
             </div>
 
             <div class="form-group">
               <label for="">28. NIK Ibu</label>
-              <input type="text" name="" id="" class="form-control" aria-describedby="helpId">
+              <input type="text" name="" id="" class="form-control" aria-describedby="helpId" required>
               <small id="helpId" class="text-muted">Nomor Induk Kependudukan yang tercantum pada Kartu
                 Keluarga atau KTP ibu kandung</small>
             </div>
 
             <div class="form-group">
               <label for="">29. Tahun Lahir Ibu</label>
-              <input type="number" name="" id="" class="form-control" aria-describedby="helpId">
+              <input type="number" name="" id="" class="form-control" aria-describedby="helpId" required>
               <small id="helpId" class="text-muted">Tahun Lahir Ibu Peserta Didik</small>
             </div>
 
@@ -434,7 +434,7 @@
 
             <div class="form-group">
               <label>30. Penghasilan Perbulan Ibu</label>
-              <select name="" id="" class="form-control">
+              <select name="" id="" class="form-control" required>
                 <option value=""></option>
                 <option value="">Kurang dari Rp 1.000.000 </option>
                 <option value="">Rp 1.000.000 - Rp 2.000.000 </option>
@@ -456,19 +456,19 @@
             <!-- wali -->
             <div class="form-group">
               <label for="">31. Nama Wali</label>
-              <input type="text" name="" id="" class="form-control" aria-describedby="helpId">
+              <input type="text" name="" id="" class="form-control" aria-describedby="helpId" required>
             </div>
 
             <div class="form-group">
               <label for="">32. NIK Wali</label>
-              <input type="text" name="" id="" class="form-control" aria-describedby="helpId">
+              <input type="text" name="" id="" class="form-control" aria-describedby="helpId" required>
               <small id="helpId" class="text-muted">Nomor Induk Kependudukan yang tercantum pada Kartu
                 Keluarga atau KTP Wali murid</small>
             </div>
 
             <div class="form-group">
               <label for="">33. Tahun Lahir Wali</label>
-              <input type="number" name="" id="" class="form-control" aria-describedby="helpId">
+              <input type="number" name="" id="" class="form-control" aria-describedby="helpId" required>
               <small id="helpId" class="text-muted">Tahun Lahir Ibu Peserta Didik</small>
             </div>
 
@@ -492,7 +492,7 @@
 
             <div class="form-group">
               <label>34. Penghasilan Perbulan Ibu</label>
-              <select name="" id="" class="form-control">
+              <select name="" id="" class="form-control" required>
                 <option value=""></option>
                 <option value="">Kurang dari Rp 1.000.000 </option>
                 <option value="">Rp 1.000.000 - Rp 2.000.000 </option>
@@ -529,9 +529,9 @@
             <!-- end kontak -->
           </div>
           <!-- end kotak 2 -->
+          <button class="btn btn-primary form-control" id="swal-2"><i class="fa fa-save"></i> DAFTAR</button>
 
-
-
+          <button class="btn btn-info form-control mt-3"><i class="fa fa-download"></i> Download Hasil Formulir</button>
 
           </form>
         </div>
@@ -559,10 +559,12 @@
   <script src="assets/modules/moment.min.js"></script>
   <script src="assets/js/stisla.js"></script>
 
+  <!-- JS Libraies -->
+  <script src="assets/modules/sweetalert/sweetalert.min.js"></script>
   <!-- Plugins -->
 
   <!-- Page Specific JS File -->
-
+  <script src="assets/js/page/modules-sweetalert.js"></script>
   <!-- Template JS File -->
   <script src="assets/js/scripts.js"></script>
   <script src="assets/js/custom.js"></script>
